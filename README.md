@@ -22,4 +22,4 @@ Answer: preventDefault() stops the browser’s default action, while stopPropaga
 
 
 
-source: Google ; ChatGPT ; MDN Web Docs
+source: Google ; ChatGPT ; MDN Web Docs  
