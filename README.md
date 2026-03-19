@@ -2,217 +2,212 @@
 
 <br/>
 
-# 💼 PH Job Tracker
-
-**A clean, interactive job application tracker built with vanilla HTML, CSS & JavaScript**
-
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=PH%20Job%20Tracker&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Track%20smarter.%20Apply%20better.%20Land%20faster.&descAlignY=60&descSize=16&descColor=94a3b8" width="100%"/>
 
 <br/>
 
-> *Track your job applications, monitor interview stages, and stay on top of your career journey — all in one elegant interface.*
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![MIT License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Deployed](https://img.shields.io/badge/Deployed-GitHub%20Pages-0ea5e9?style=flat-square&logo=github)](https://safin313-stack.github.io/Assingment-B13-A4-PH-Job-Tracker/)
+[![PH Batch](https://img.shields.io/badge/Programming%20Hero-Batch%2013-f97316?style=flat-square)](https://web.programming-hero.com)
 
 <br/>
+
+<a href="https://safin313-stack.github.io/Assingment-B13-A4-PH-Job-Tracker/">
+  <img src="https://img.shields.io/badge/-%F0%9F%9A%80%20%20LIVE%20DEMO%20%20%E2%86%92-0f3460?style=for-the-badge&logoColor=white" alt="Live Demo" height="42"/>
+</a>
+
+<br/>
+<sub>✦ No login &nbsp;·&nbsp; No install &nbsp;·&nbsp; Opens instantly in your browser ✦</sub>
+
+<br/><br/>
 
 </div>
 
 ---
 
-## 🌟 What is This?
+<div align="center">
 
-**PH Job Tracker** is a fully client-side job application management dashboard. Built as part of the **Programming Hero (Batch-13, Assignment 4)** course, it demonstrates real-world DOM manipulation, dynamic UI rendering, event delegation, and local state management — without any frameworks or dependencies.
+### 💼 What You Get
 
----
+| 📋 Job Cards | 📊 Live Stats | 🗂️ Tab Filter | 🌙 Dark Mode | 🔔 Toast Alerts |
+|:---:|:---:|:---:|:---:|:---:|
+| Beautiful card layout for every job listing | Real-time Total · Interview · Rejected counter | Switch between All / Interview / Rejected instantly | One-click light ↔ dark theme toggle | Instant feedback on every action |
 
-## ✨ Features at a Glance
-
-| Feature | Description |
-|---|---|
-| 📋 **Job Cards** | Beautifully rendered cards for each job listing |
-| 📊 **Live Dashboard** | Real-time stats: Total, Interview, and Rejected counts |
-| 🗂️ **Tab Filtering** | Instantly filter by All / Interview / Rejected |
-| 🌙 **Dark Mode** | Smooth light/dark theme toggle with persistence |
-| 🔔 **Toast Notifications** | Action feedback on status changes |
-| 📭 **Empty State** | Friendly UI when no jobs match the filter |
+</div>
 
 ---
 
-## 🖥️ Live Preview
+## 🖥️ Interface Preview
 
 ```
-┌────────────────────────────────────────────────────────┐
-│  💼 Job Application Tracker                    [🌙]    │
-├──────────┬─────────────┬─────────────────────────────  │
-│  Total   │  Interview  │  Rejected                     │
-│    8     │      0      │      0                        │
-├──────────┴─────────────┴─────────────────────────────  │
-│  Available Jobs                              8 jobs    │
-│  [ All ] [ Interview ] [ Rejected ]                    │
-│                                                        │
-│  ┌──────────────────────┐  ┌──────────────────────┐   │
-│  │  Software Engineer   │  │  Frontend Dev        │   │
-│  │  Google · Remote     │  │  Meta · Dhaka        │   │
-│  │  [Mark Interview]    │  │  [Mark Interview]    │   │
-│  └──────────────────────┘  └──────────────────────┘   │
-└────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════╗
+║  💼  Job Application Tracker                      [☀️]  ║
+╠═══════════════╦══════════════════╦═══════════════════════╣
+║  Total  ·  8  ║  Interview  ·  0 ║  Rejected  ·  0      ║
+╠═══════════════╩══════════════════╩═══════════════════════╣
+║  Available Jobs                                 8 jobs   ║
+║  ┌─────────┐  ┌───────────┐  ┌──────────┐               ║
+║  │   All   │  │ Interview │  │ Rejected │               ║
+║  └─────────┘  └───────────┘  └──────────┘               ║
+║                                                          ║
+║  ╔══════════════════════╗  ╔══════════════════════╗      ║
+║  ║  Software Engineer   ║  ║   Frontend Dev       ║      ║
+║  ║  Google  ·  Remote   ║  ║   Meta  ·  Dhaka     ║      ║
+║  ║  [ Mark Interview ]  ║  ║  [ Mark Interview ]  ║      ║
+║  ╚══════════════════════╝  ╚══════════════════════╝      ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 🧠 JavaScript Concepts Demonstrated
+## 🧠 JavaScript Concepts in Action
 
-This project puts the following DOM & event concepts into practice:
+> This project is built to demonstrate core DOM & event concepts in a real-world app context.
 
-### 🔎 DOM Selection
+### 🔎 DOM Selection Methods
+
 ```js
-// getElementById — single element by ID
-document.getElementById('theme-toggle')
-
-// querySelector — CSS selector, returns first match
-document.querySelector('.tab-btn.active')
-
-// querySelectorAll — CSS selector, returns NodeList of all matches
-document.querySelectorAll('.tab-btn')
+document.getElementById('theme-toggle')      // one element by ID
+document.querySelector('.tab-btn.active')    // first match by CSS selector
+document.querySelectorAll('.tab-btn')        // all matches → NodeList
 ```
 
 ### ➕ Creating & Inserting Elements
+
 ```js
 const card = document.createElement('div');
 card.classList.add('job-card');
-container.appendChild(card);       // adds at end
-container.prepend(card);           // adds at start
+container.appendChild(card);   // insert at end
+container.prepend(card);       // insert at start
 ```
 
-### 🫧 Event Bubbling & Delegation
+### 🫧 Event Delegation (not attaching to every button)
+
 ```js
-// Instead of attaching listeners to every card button...
-// We attach ONE listener to the parent container:
 document.getElementById('cards-container').addEventListener('click', (e) => {
   if (e.target.matches('.action-btn')) {
     handleAction(e.target.dataset.id);
+    // event bubbles UP: child → parent → document
   }
-  // event bubbles UP from child → parent
 });
 ```
 
-### 🚫 `preventDefault` vs `stopPropagation`
-```js
-// Stops the browser's default behavior (e.g. form submit, link navigation)
-e.preventDefault();
+### 🚫 preventDefault vs stopPropagation
 
-// Stops the event from bubbling up to parent elements
-e.stopPropagation();
+```js
+e.preventDefault();     // cancels default browser action (form submit, link nav)
+e.stopPropagation();    // stops event from bubbling up to parent elements
 ```
 
-> 📚 Sources: [MDN Web Docs](https://developer.mozilla.org), [Google](https://google.com), [ChatGPT](https://chatgpt.com)
+> 📚 References: [MDN Web Docs](https://developer.mozilla.org) · [Google](https://google.com) · [ChatGPT](https://chatgpt.com)
 
 ---
 
 ## 📁 Project Structure
 
 ```
-PH-Job-Tracker/
+Assingment-B13-A4-PH-Job-Tracker/
 │
-├── index.html          ← App shell: layout, tabs, dashboard, toast
-├── app.js              ← All logic: rendering, filtering, events, dark mode
+├── 📄 index.html        ← App shell · tabs · dashboard · toast
+├── ⚙️  app.js           ← All logic · rendering · filtering · dark mode
 │
-└── css/
-    ├── style.css       ← Complete styling, dark mode variables, animations
-    └── jobs.png        ← Empty state illustration
+└── 📂 css/
+    ├── 🎨 style.css     ← Styling · dark mode variables · animations
+    └── 🖼️  jobs.png     ← Empty state illustration
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Run It Yourself
 
-No build tools. No install. Just open and run.
+**Option 1 — Live (instant, no setup)**
 
-**Option 1 — Direct open:**
+> 🔗 **[https://safin313-stack.github.io/Assingment-B13-A4-PH-Job-Tracker/](https://safin313-stack.github.io/Assingment-B13-A4-PH-Job-Tracker/)**
+
+**Option 2 — Clone & open locally**
+
 ```bash
-# Clone the repo
 git clone https://github.com/Safin313-stack/Assingment-B13-A4-PH-Job-Tracker.git
-
-# Open in browser
+cd Assingment-B13-A4-PH-Job-Tracker
 open index.html
 ```
 
-**Option 2 — Live Server (VS Code):**
-1. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
-2. Right-click `index.html` → **Open with Live Server**
-3. Done ✅
-
----
-
-## 🎨 Tech Stack
+**Option 3 — VS Code Live Server**
 
 ```
-Frontend Only — Zero Dependencies
-─────────────────────────────────
-  HTML5       →  Semantic structure & accessibility
-  CSS3        →  Custom properties, flexbox, dark mode
-  JavaScript  →  Vanilla ES6+, DOM API, Event handling
-  Google Fonts→  Inter typeface
+1. Install Live Server extension
+2. Right-click index.html → Open with Live Server
+3. App opens at localhost:5500 ✅
 ```
 
 ---
 
-## 📖 Key Concepts Quick Reference
+## 🛠️ Tech Stack
 
-> **`getElementById`** → Targets one element by its unique `id`. Returns the element or `null`.
-
-> **`getElementsByClassName`** → Returns a live HTMLCollection of all elements with that class.
-
-> **`querySelector`** → Returns the first element matching any CSS selector. Most flexible option.
-
-> **`querySelectorAll`** → Returns a static NodeList of all matching elements.
-
-> **Event Bubbling** → When an event fires on a child, it propagates upward through all ancestor elements, unless stopped.
-
-> **Event Delegation** → Attach one listener to a parent to handle events from many children — great for dynamic content and performance.
-
-> **`preventDefault()`** → Cancels the browser's built-in default action for that event.
-
-> **`stopPropagation()`** → Prevents the event from traveling further up the DOM tree.
+```
+┌─────────────────────────────────────────┐
+│         Frontend · Zero Dependencies    │
+├──────────────┬──────────────────────────┤
+│  HTML5       │  Semantic structure      │
+│  CSS3        │  Custom props · flexbox  │
+│  JavaScript  │  Vanilla ES6+ · DOM API  │
+│  Google Fonts│  Inter typeface          │
+└──────────────┴──────────────────────────┘
+```
 
 ---
+
+## 📖 Concept Quick Reference
+
+```
+getElementById        → one element by ID
+getElementsByClassName→ all elements by class (live HTMLCollection)
+querySelector         → first element matching CSS selector
+querySelectorAll      → all elements matching CSS selector (static NodeList)
+
+Event Bubbling        → event travels: child → parent → document
+Event Delegation      → one parent listener handles all child events
+preventDefault()      → stops browser's default action
+stopPropagation()     → stops event from bubbling further
+```
+
+---
+
+<div align="center">
 
 ## 👤 Developer
 
-<div align="center">
+<br/>
 
 **Saharia Hassan Safin**
+Front-end Developer · Programming Hero Batch 13
 
-[![GitHub](https://img.shields.io/badge/GitHub-Safin313--stack-181717?style=flat&logo=github)](https://github.com/Safin313-stack)
+<br/>
 
-*Built with focus, curiosity, and a lot of console.log() 🛠️*
+[![GitHub](https://img.shields.io/badge/GitHub-Safin313--stack-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Safin313-stack)
+&nbsp;
+[![Live Project](https://img.shields.io/badge/Live%20Project-Visit%20Now-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://safin313-stack.github.io/Assingment-B13-A4-PH-Job-Tracker/)
+
+<br/>
+
+*"Built with focus, curiosity, and a lot of `console.log()`"* 🛠️
+
+<br/>
 
 </div>
-
----
-
-## 📜 License
-
-```
-MIT License — Free to use, modify, and distribute.
-© 2025 Saharia Hassan Safin
-```
 
 ---
 
 <div align="center">
 
-⭐ **If this helped you, drop a star — it means a lot!**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%"/>
+
+<sub>MIT License · © 2025 Saharia Hassan Safin · ⭐ Star this repo if it helped you!</sub>
 
 </div>
-
-
-
-
-
 
 
 # Assingment-B13-A4-PH-Job-Tracker
